@@ -7,7 +7,7 @@ Citizen.CreateThread(function()
     if isArmed == 1 then
       local currentWeapon = GetSelectedPedWeapon(ped)
         if currentWeapon ~= -1569615261 then
-            -- TriggerServerEvent('chiepy:hilecikick', src, 'Burada silah basabileceğinimi düşündün? @everyone')
+            TriggerServerEvent('chiepy:hilecikick', src, 'Burada silah basabileceğinimi düşündün? @everyone')
         end
     end
   end
